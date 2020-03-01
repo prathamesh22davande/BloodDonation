@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp">
+
+ <ImageView
+     android:id="@+id/img_profile"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="30dp"
+     android:src="@drawable/profile" />
+
+ <TextView
+     android:id="@+id/txt_name_profile"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/img_profile"
+     android:layout_marginTop="10dp"
+     android:text="Name"
+     android:textSize="24sp"
+     android:textStyle="bold" />
+
+ <TextView
+     android:id="@+id/txt_blood_group"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/txt_name_profile"
+     android:layout_marginTop="10dp"
+     android:text="Blood Group"
+     android:textSize="24sp"
+     android:textStyle="bold" />
+
+ <TextView
+     android:id="@+id/txt_gender"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/txt_blood_group"
+     android:layout_marginTop="10dp"
+     android:text="Gender"
+     android:textSize="24sp" />
+
+ <TextView
+     android:id="@+id/txt_phone"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/txt_gender"
+     android:layout_marginTop="10dp"
+     android:text="Phone No."
+     android:textSize="24sp" />
+
+ <TextView
+     android:id="@+id/txt_email"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/txt_phone"
+     android:layout_marginTop="10dp"
+     android:text="Email"
+     android:textSize="24sp" />
+
+ <TextView
+     android:id="@+id/txt_address"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/txt_email"
+     android:layout_marginTop="10dp"
+     android:text="Address"
+     android:textSize="24sp" />
+
+
+
+</RelativeLayout>

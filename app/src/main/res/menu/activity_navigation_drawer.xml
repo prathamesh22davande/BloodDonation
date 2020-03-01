@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:iconTint="@color/colorPrimaryDark"
+            android:iconTintMode="add"
+            android:title="@string/menu_home" />
+        <item
+
+            android:id="@+id/nav_blood_banks"
+            android:icon="@drawable/bbank"
+            android:title="Blood Banks" />
+        <item
+            android:id="@+id/nav_donors"
+            android:icon="@drawable/donor"
+            android:title="Donors" />
+        <item
+            android:id="@+id/nav_requesters"
+            android:icon="@drawable/requester"
+            android:title="Requesters" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+    </group>
+
+
+
+</menu>

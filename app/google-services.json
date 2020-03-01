@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "605743048111",
+    "firebase_url": "https://lifesaver-e32f4.firebaseio.com",
+    "project_id": "lifesaver-e32f4",
+    "storage_bucket": "lifesaver-e32f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605743048111:android:b9cf0888341c89ca8a3b5a",
+        "android_client_info": {
+          "package_name": "com.example.blooddonation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605743048111-kfp3bm27p5ddja98dhvkhkcngqe7va2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blooddonation",
+            "certificate_hash": "d92b7ee967b5ca349d12d8a5fb3485bb43c9ea9e"
+          }
+        },
+        {
+          "client_id": "605743048111-3eunueubbrugn63dh60mh2ha3npc1tde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArFpShZAeKirgPV4Vd6q-WOxWTTTL0JN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605743048111-3eunueubbrugn63dh60mh2ha3npc1tde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

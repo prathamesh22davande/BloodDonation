@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/donor"
+            android:background="@drawable/loading_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_donor"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="bloodbottle.json"
+                app:lottie_loop="true" />
+
+            <TextView
+                android:id="@+id/txt_be_donor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Be a Donor"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/lottie_donor"/>
+
+            <TextView
+                android:id="@+id/txt_donor_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Help other people so that they can recover from blood loss"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/lottie_donor"
+                android:layout_below="@+id/txt_be_donor"/>
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/requester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/loading_shape"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_requester"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="fillblood.json"
+                app:lottie_loop="true" />
+
+            <TextView
+                android:id="@+id/txt_be_requester"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/lottie_requester"
+                android:text="Be a Requester"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_requester_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Put your request so that other can help you with blood"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/lottie_requester"
+                android:layout_below="@+id/txt_be_requester"/>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
